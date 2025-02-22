@@ -29,19 +29,33 @@ h1 {
 
   max-width: 800px;
 }
-#poem-gernerator-form {
-  padding: 60px;
+.form-container {
+padding: 60px;
   margin: 40px auto;
   background-color: var(--maincolor);
   border-radius: 10px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+}
+
+#poem-gernerator-form {
+    padding-bottom: 5px;
+  
 }
 .entry {
   width: 70%;
   padding: 10px 10px;
   border-radius: 20px;
   border-style: none;
-  background-color: #ececec;
+  
 }
 .submit {
   width: 24%;
@@ -49,6 +63,10 @@ h1 {
   border-radius: 20px;
   border-style: none;
   background: #ececec;
+}
+
+.hidden {
+    display: none;
 }
 
 #result {
