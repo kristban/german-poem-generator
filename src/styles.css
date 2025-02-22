@@ -29,7 +29,7 @@ h1 {
 
   max-width: 800px;
 }
-.form {
+#poem-gernerator-form {
   padding: 40px;
   margin: 20px auto;
   background-color: var(--maincolor);
@@ -37,7 +37,7 @@ h1 {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .entry {
-  width: 74%;
+  width: 70%;
   padding: 10px 10px;
   border-radius: 20px;
   border-style: none;
@@ -51,7 +51,7 @@ h1 {
   background: #ececec;
 }
 
-.result {
+#result {
   background-color: #ececec;
   line-height: 1.5;
   padding: 20px;
